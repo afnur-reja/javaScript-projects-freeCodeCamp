@@ -43,9 +43,9 @@ project/
 
 You can add your deployed project link here:
 
-```
+
 🔗 [Live Demo](https://telephone-number-validator-reja.netlify.app/)
-```
+
 
 ## 📜 License
 
