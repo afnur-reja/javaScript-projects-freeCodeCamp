@@ -1,6 +1,6 @@
 # JavaScript Projects – freeCodeCamp
 
-This repository contains JavaScript projects and mini challenges completed as part of the [freeCodeCamp JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) certification.
+This repository contains JavaScript projects and mini challenges completed as part of the [freeCodeCamp JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) certification.
 
 ## 📁 Projects Included
 
