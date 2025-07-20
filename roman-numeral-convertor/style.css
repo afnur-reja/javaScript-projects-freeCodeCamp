@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-color: #1c1212c5;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.832);
+    padding: 15px;
+}
+
+.container {
+    margin-inline: auto;
+    margin-top: 5rem;
+    max-width: 400px;  
+   font-family: "Poppins", sans-serif;
+}
+
+.input-cntn {
+   padding: 30px 0px;
+    background-color: #3B3B4F;
+    border: 1px solid #ffffffac;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 10px;
+    font-weight: 600;
+
+}
+
+.input-cntn:hover {
+ border: 2px solid white;
+}
+
+.container label, input, button {
+    display: block;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.853);
+}
+
+.container input {
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #0A0A23;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.container input:hover {
+    border: 1px solid white;
+}
+
+.container button {
+    font-size: 2rem;
+    padding: 5px 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    background-color: #4b0092;
+    color: rgba(255, 255, 255, 0.812);
+    border: 1px solid #ffffffae;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #2b0152;
+    border-color: white;
+    color: white;
+}
+
+.valid {
+    text-align: center;
+    font-size: 1.8rem;
+    background-color: #3B3B4F;
+    border-radius: 10px;
+    margin-top: 30px;
+    word-wrap: break-word;
+    padding: 8px;
+    font-weight: bold;
+    color: #ffffffd1;
+    border: 1px solid #ffffffac;
+}
+
+.invalid {
+    text-align: center;
+    font-size: 1.8rem; 
+    background-color: #FFADAD;
+    border-radius: 10px;
+    margin-top: 30px;
+    word-wrap: break-word;
+    padding: 8px;
+    font-weight: bold;
+    color: #850000;
+    border: 1px solid #850000;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    .input-cntn {
+        padding: 30px 10px;
+    }
+
+    .container {
+        margin-top: 3rem;
+    }
+
+    .container input {
+        width: 80%;
+    }
+
+    #output {
+        text-align: center;
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+
+    label {
+        font-size: 1.3rem     ;
+    }
+
+    h1 {
+        padding: 10px;
+    }
+}

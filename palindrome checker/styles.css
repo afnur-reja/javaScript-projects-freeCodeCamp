@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #255F38;
+    font-family: "Kanit", sans-serif;
+   
+}
+
+main {
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.827);
+    font-size: 3rem;
+}
+
+.container {
+    background-color: #9DC08B;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 14px 20px 0px #01141a6f;
+}
+
+.palindrome-div {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 25px;
+}
+.palindrome-div label {
+   display: block;
+   font-size: 1.2rem;
+   text-align: center;
+}
+
+.input-btn {
+    /* background-color: #D84040; */
+    display: flex;
+    gap: 20px;
+}
+
+.input-btn #text-input {
+    padding: 0.5rem;
+    max-width: 300px;
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #6D2323;
+    outline: none;
+}
+
+.input-btn #text-input:hover {
+    outline: 2px solid #6D2323;
+}
+
+.input-btn #check-btn {
+    padding: 8px 20px;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    border: none;
+    color: rgba(241, 231, 231, 0.819);
+    cursor: pointer;
+    background-color: #D84040;
+  
+}
+
+.input-btn #check-btn:hover {
+    background-color: #6D2323;
+    color: white;
+}
+
+.palindrome-result-div {
+    text-align: center;
+    overflow-wrap: break-word;
+    white-space: normal;
+    max-width: 100%;
+}
+
+.palindrome-result-div #result {
+    font-size: 1.6rem;
+}
+
+.defination {
+    max-width: 400px;
+    text-align: center;
+    color: #e7dadac3;
+  
+    background-color: #034C53;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 1.3rem;
+
+}
+
