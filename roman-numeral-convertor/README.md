@@ -1,5 +1,7 @@
 # 🏛️ Roman Numeral Converter
 
+This is a JavaScript project that checks whether a given string is a palindrome. It was built as part of the [freeCodeCamp JavaScript Projects](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) curriculum.
+
 ## 📌 Features
 
 - Converts valid positive integers (from 1 to 3999) into Roman numerals.
@@ -8,15 +10,6 @@
 
 ---
 
-## 🧪 Example Usage
-
-```js
-convertToRoman(36); // Output: XXXVI
-convertToRoman(1987); // Output: MCMLXXXVII
-convertToRoman(3999); // Output: MMMCMXCIX
-```
-
----
 
 ## 🌐 Live Preview
 
