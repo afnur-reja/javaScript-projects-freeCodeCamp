@@ -18,20 +18,12 @@ convertToRoman(3999); // Output: MMMCMXCIX
 
 ---
 
-## 🚀 How to Run
+## 🌐 Live Preview
 
-1. Clone this repository:
+You can add your deployed project link here:
 
-   ```bash
-   git clone https://github.com/afnur-reja/javaScript-projects-freeCodeCamp.git
-   cd javaScript-projects-freeCodeCamp/roman-numeral-convertor
-   ```
 
-2. Open the `script.js` file in any modern browser's console or run it with Node.js:
-
-   ```bash
-   node script.js
-   ```
+🔗 [Live Demo](https://roman-numeral-converter-reja.netlify.app/)
 
 ---
 
